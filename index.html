@@ -147,9 +147,7 @@
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use>
+                        <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -163,18 +161,14 @@
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-facebook"
-                        ></use>
+                        <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-linkedin"
-                        ></use>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -190,9 +184,7 @@
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use>
+                        <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -206,18 +198,14 @@
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-facebook"
-                        ></use>
+                        <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-linkedin"
-                        ></use>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -237,9 +225,7 @@
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use>
+                        <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -253,18 +239,14 @@
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-facebook"
-                        ></use>
+                        <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-linkedin"
-                        ></use>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -284,9 +266,7 @@
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use>
+                        <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -300,18 +280,14 @@
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-facebook"
-                        ></use>
+                        <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-icon">
                     <a href="" class="team-social-link">
                       <svg width="16" height="16" class="icon-socialsite">
-                        <use
-                          href="./images/icons.svg#icon-linkedin"
-                        ></use>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -494,8 +470,15 @@
         <div class="footer__form">
           <p class="footer__form__text footer-title-icon">Subscribe</p>
           <form class="footer__form__items">
-            <input class="footer__form__input" type="email" name="useremail" placeholder="E-mail" required/>
-            <button class="footer__form__btn">Subscribe
+            <input
+              class="footer__form__input"
+              type="email"
+              name="useremail"
+              placeholder="E-mail"
+              required
+            />
+            <button class="footer__form__btn" type="submit">
+              Subscribe
               <svg width="24" height="24">
                 <use href="./images/icons.svg#icon-submit"></use>
               </svg>
@@ -505,20 +488,102 @@
       </div>
     </footer>
 
-
     <!--Modal window-->
-    <div class="overlay">
-      <div class="modal__icon">
-        <svg class="modal__icon__close" width="8" height="8">
-          <use href="./images/icons.svg#icon-close-black"></use>
-        </svg>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <div class="modal__icon">
+          <button class="modal__form__close" type="button">
+            <svg class="modal__icon__close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="modal__form__title">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal__form">
+          <div class="modal__field">
+            <label for="username" class="modal__form__label">Name</label>
+            <div class="modal__field__wrap modal__field__name">
+              <input
+                type="text"
+                name="username"
+                required
+                class="modal__form__input"
+                id="username"
+              />
+              <svg class="modal__form__icons" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal__field">
+            <label for="userphone" class="modal__form__label">Phone</label>
+            <div class="modal__field__wrap modal__field__phone">
+              <input
+                type="tel"
+                name="userphone"
+                required
+                class="modal__form__input"
+                id="userphone"
+              />
+              <svg class="modal__form__icons" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal__field">
+            <label for="useremail" class="modal__form__label">Email</label>
+            <div class="modal__field__wrap modal__field__email">
+              <input
+                type="email"
+                name="useremail"
+                required
+                class="modal__form__input"
+                id="useremail"
+              />
+              <svg class="modal__form__icons" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal__field">
+            <label for="usercomment" class="modal__form__label">Comment</label>
+            <textarea
+              name="usercomment"
+              id="usercomment"
+              rows="5"
+              placeholder="Text input"
+              class="modal__form__textarea"
+            ></textarea>
+          </div>
+          <div class="modal__field modal__field__chechbox">
+            <input
+            name="policy"
+              type="checkbox"
+              value="true"
+              class="checkbox  visually-hidden"
+              id="modal__form__checkbox"
+            />
+            
+              <label for="modal__form__checkbox" class="modal__form__check">
+                <div class="modal__field__chechbox__wrap">
+                <span class="modal__form__agree">
+                  <svg class="modal__form__active" width="10" height="8">
+                    <use href="./images/icons.svg#icon-active"></use>
+                  </svg>
+                </span> <p class="modal__form__text">I accept the terms and conditions of the <a href="" class="modal__form__link">Privacy Policy</a></p></label
+              >
+              </div>
+            </div>
+            <button type="submit" class="modal__form__submit">Send</button>
+          </div>
+          
+        </form>
       </div>
-      <p>Leave your contacts and we will call you back</p>
-      <form class="modal__form" action="">
-        <label for="">Name
-          <input type="text" name="username" required>
-        </label>
-      </form>
     </div>
   </body>
 </html>
