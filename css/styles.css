@@ -504,7 +504,8 @@ img {
 }
 .footer__form__btn {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -519,6 +520,9 @@ img {
     border: none;
     margin-left: 24px;
     cursor: pointer;
+}
+.footer__form__svg {
+    margin-left: 16px;
 }
 .footer__form__btn:hover,
 .footer__form__btn:focus {
@@ -599,7 +603,7 @@ img {
     color: #2E2F42;
 }
 .modal__field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     
 }
 .modal__form__label {
@@ -686,7 +690,6 @@ img {
 }
 .modal__form__agree {
     display: inline-flex;
-    display: flex;
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -700,6 +703,7 @@ img {
 .checkbox:checked + .modal__form__check > .modal__form__agree {
     border: none;
     fill: #F4F4FD;
+    background-color: #404bbf;
 }
 .modal__form__check
 {
