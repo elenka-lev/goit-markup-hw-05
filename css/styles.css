@@ -602,10 +602,7 @@ img {
     margin-bottom: 16px;
     color: #2E2F42;
 }
-.modal__field__textarea {
-    margin-bottom: 16px;
-    
-}
+
 .modal__form__label {
     display: block;
     font-weight: 400;
