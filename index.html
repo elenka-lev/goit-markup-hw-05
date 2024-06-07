@@ -420,6 +420,7 @@
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-item">
@@ -467,18 +468,18 @@
             </li>
           </ul>
         </div>
+
         <div class="footer__form">
           <p class="footer__form__text footer-title-icon">Subscribe</p>
           <form class="footer__form__items">
-            <label for="#footer-form"></label>
+            <label class="footer__form__label">
             <input
-              id="footer-form"
               class="footer__form__input"
               type="email"
               name="useremail"
               placeholder="E-mail"
-              required
             />
+            </label>
             <button class="footer__form__btn" type="submit">
               Subscribe
               <svg width="24" height="24">
@@ -491,7 +492,7 @@
     </footer>
 
     <!--Modal window-->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         
           <button class="modal__form__close" type="button">
@@ -509,7 +510,7 @@
             <div class="modal__field__wrap">
               <input
                 type="text"
-                name="username"
+                name="user-name"
                 required
                 class="modal__form__input"
                 id="user-name"
