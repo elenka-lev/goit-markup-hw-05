@@ -630,6 +630,9 @@ img {
     position: relative;
     margin-bottom: 8px;
 }
+.modal__field {
+    margin-bottom: 8px;
+}
 .modal__form__icons {
     position: absolute; 
     left: 16px;
@@ -688,7 +691,7 @@ img {
     display: flex;
     cursor: pointer;
 }
-.modal__form__agree {
+.modal__form__check span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -698,6 +701,7 @@ img {
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
+    margin-right: 8px;
     
 }
 .checkbox:checked + .modal__form__check > .modal__form__agree {
