@@ -670,6 +670,7 @@ img {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 16px;
 }
 .modal__form__textarea::placeholder {
     color:rgb(46, 47, 66, 0.40);
@@ -685,7 +686,7 @@ img {
 }
 .modal__field__chechbox
 {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .modal__field__chechbox__wrap {
     display: flex;
